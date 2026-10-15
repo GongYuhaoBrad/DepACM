@@ -30,11 +30,10 @@ def make_scratch(in_shape, out_shape, expand=False):
     return scratch
 def make_efficientnet_lite3(use_pretrained, exportable=False):
     efficientnet = torch.hub.load(
-        "/home/customer4/.cache/torch/hub/rwightman_gen-efficientnet-pytorch_master/",
+        "rwightman/gen-efficientnet-pytorch",
         "tf_efficientnet_lite0",
         pretrained=use_pretrained,
         exportable=exportable,
-        source='local',
     )
     pretrained = nn.Module()
 
