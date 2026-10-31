@@ -61,9 +61,9 @@ If you find our work useful, please cite:
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   title={DepACM: A Depth-Aware Consistency Model for Real-Time Underwater Image Restoration}, 
   year={2026},
-  volume={},
-  number={},
-  pages={1-1},
+  volume={36},
+  number={11},
+  pages={17018-17032},
   doi={10.1109/TCSVT.2026.3718661}}
 ```
 ## Acknowledgement
